@@ -1,6 +1,15 @@
-# custom_switch
+# Custom switch & Custom Carousel
 
 A new Flutter project.
+
+
+https://github.com/khusantoy/custom-switch/assets/119614237/89f49cc2-b977-468f-9b23-09664aac6b9b
+
+
+https://github.com/khusantoy/custom-switch/assets/119614237/914d01d2-7cc3-494e-8a4a-53c74265bc29
+
+
+
 
 ## Getting Started
 
