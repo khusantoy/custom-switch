@@ -79,6 +79,14 @@ class _CarouselCardState extends State<CarouselCard> {
                     child: Image.network(
                       "https://global-uploads.webflow.com/62fca6954348cf321d918ef1/63ecdb90ab68901626f1673a_toomas-tartes-Yizrl9N_eDA-unsplash.jpg",
                       fit: BoxFit.cover,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) {
+                          return child;
+                        }
+                        return const Center(
+                          child: CircularProgressIndicator(),
+                        );
+                      },
                     ),
                   ),
                 ),
@@ -89,6 +97,14 @@ class _CarouselCardState extends State<CarouselCard> {
                     child: Image.network(
                       "https://actiongroup.az/wp-content/uploads/hiking-tours.jpg",
                       fit: BoxFit.cover,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) {
+                          return child;
+                        }
+                        return const Center(
+                          child: CircularProgressIndicator(),
+                        );
+                      },
                     ),
                   ),
                 ),
@@ -99,6 +115,14 @@ class _CarouselCardState extends State<CarouselCard> {
                     child: Image.network(
                       "https://goreg.com/wp-content/uploads/2014/03/blog-8.jpg",
                       fit: BoxFit.cover,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) {
+                          return child;
+                        }
+                        return const Center(
+                          child: CircularProgressIndicator(),
+                        );
+                      },
                     ),
                   ),
                 ),
@@ -109,6 +133,14 @@ class _CarouselCardState extends State<CarouselCard> {
                     child: Image.network(
                       "https://i.pinimg.com/originals/12/34/4c/12344cd6cdc11f639a205b4d455b7143.jpg",
                       fit: BoxFit.cover,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) {
+                          return child;
+                        }
+                        return const Center(
+                          child: CircularProgressIndicator(),
+                        );
+                      },
                     ),
                   ),
                 ),
